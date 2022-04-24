@@ -1,0 +1,21 @@
+TP U1A
+Ej1
+Qué era la rta en frecuencia en gral?
+4_ Que no exista ROC qué significa?
+Ej2
+5,6_ No los pude hacer. No entendí
+
+Ej4
+No entiendo uso de filter
+
+Ej5_ Entero sin hacer
+
+TP U1C
+Ej2
+3,4_Difernecias no están aplicando por algun motivo
+Ej3
+No me dieron exactamente esos valores, pero quizás mi compilador no los puede devolver y devuelve estos.
+
+Ej5_
+Can't get an underflow. Overflow comes with inexact. why?
+Ej6_ No reconoce feenableexcept. No hecho nada del ejercicio

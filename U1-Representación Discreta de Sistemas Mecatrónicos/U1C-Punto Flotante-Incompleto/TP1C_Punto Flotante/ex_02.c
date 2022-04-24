@@ -2,13 +2,13 @@
 // Date:    2020/03/19
 // Author:  Rodrigo Gonzalez <rodralez@frm.utn.edu.ar>
 
+// Compile usando el siguiente comando
+// compile: gcc -Wall -std=c99 ex_02.c -o ex_02 -lm -frounding-math -fsignaling-nans
+
 #include <stdio.h>
 #include <float.h>
 #include <math.h>
 #include <fenv.h>
-
-// Compile usando el siguiente comando
-// compile: gcc -Wall -O3 -std=c99 ex_02.c -o ex_02 -lm -march=corei7 -frounding-math -fsignaling-nans
 
 void test_rounding (void)
 {
@@ -46,7 +46,7 @@ int main(void)
 	printf("** Floating-point single-precision constants ** \n");
 	printf("FLT_MIN 	= %E \n", 		FLT_MIN );
 	printf("FLT_MAX 	= %E \n", 		FLT_MAX );
-	printf("FLT_EPSILON	= %E \n", 	FLT_EPSILON ); // En MATLAB: eps(single(1))
+	printf("FLT_EPSILON	= %E \n", 	FLT_EPSILON ); // En MATLAB: eps(single(1)). Difference between 1 and next float.
 	printf("\n");
 	
 	printf("** Floating-point double-precision constants ** \n");
@@ -82,3 +82,10 @@ int main(void)
 	printf("\n");
 	return 0;
 }
+//1_
+//fegetround: Devuelve el entero que representa el modo de redondeo actual.
+//fesetround: Establece el modo de redondeo al ingresarle el entero que lo representa.
+
+//2_ Arranca por defecto con redondeo al más cercano
+
+//3,4_ Las diferencias no se están viendo reflejadas, idk why
