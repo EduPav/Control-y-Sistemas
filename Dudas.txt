@@ -19,3 +19,9 @@ No me dieron exactamente esos valores, pero quizás mi compilador no los puede d
 Ej5_
 Can't get an underflow. Overflow comes with inexact. why?
 Ej6_ No reconoce feenableexcept. No hecho nada del ejercicio
+
+TP U2A
+Ej2_ Interpretacion de r1,r2 y de snr que tengan sentido. Por que el de matlab siemrpe da mas que mi r? 
+Ej3_ Chequear entero y entender bien parte teórica subyacente
+4_ No entendido en absoluto. Cómo supo hacer ese filtro?
+5.4_No da segun la teoría 
