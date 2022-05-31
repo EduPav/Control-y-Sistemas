@@ -1,0 +1,5 @@
+Ej 1)
+Hay que cambiar condiciones iniciales en signal table
+Siempre que trabajo con integrador y derivador es necesario (algo de 25 puso).
+
+Ej3)
