@@ -1,0 +1,1 @@
+If for example we wanted y as our output you couldn't express it in terms of x1,x2,x3, then you would need a 4th state
